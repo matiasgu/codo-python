@@ -11,12 +11,12 @@ html{
 body{
     background-color: #dde1e9;
 }
-/* seccion menu */
+/* NAVEGADOR */
 .header-contenedor{
     width: 100%;
     position: fixed;
-    border-bottom: 1px solid #2f283e;
-    background-color: rgba(48, 35, 30, 0.765);
+    border-bottom: 1px solid #000000;
+    background-color: rgba(1, 1, 1, 0.636);
     z-index: 99;
     padding: 0 20px;
 }
@@ -41,7 +41,7 @@ body{
 }
 
 .header-contenedor header nav a:hover{
-    color: hsl(170, 68%, 38%);
+    color: hsl(54, 87%, 42%);
 }
 .header-contenedor header .redes a{
     text-decoration: none;
@@ -50,18 +50,26 @@ body{
     padding: 20px;
 }
 .header-contenedor header .redes a:hover{
-    color: hsl(170, 68%, 38%);
+    color: hsl(54, 87%, 42%);
 }
 .nav-responsive{
     font-size: 25px;
-    display: none;
+    /* display: none; */
 }
 .text1{
-    color: hsl(170, 68%, 38%);
+    color: hsl(54, 87%, 42%);
 }
+
+
+
+
+
+
 
 
 @media only screen and (max-width:900px){
+
+    /* NAVEGADOR */
     header nav{
         position: absolute;
         display: none;
@@ -86,7 +94,7 @@ body{
         top: 0;
         width: 100%;
         height: 100vh;
-        background-color: rgba(48, 35, 30, 0.876);
+        background-color: rgba(1, 1, 1, 0.636);
         z-index: 99;
     }
     nav.responsive a{
