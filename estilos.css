@@ -54,7 +54,7 @@ body{
 }
 .nav-responsive{
     font-size: 25px;
-    /* display: none; */
+    display: none;
 }
 .text1{
     color: hsl(54, 87%, 42%);
@@ -72,45 +72,31 @@ body{
     position: relative;
     
 }
-.inicio .contenedor-inicio{
+.contenedor-inicio{
     max-width: 1100px;
-    margin: auto;
-    display: block;
+    height: 100%;
+    margin: auto;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
     
 }
-.inicio .info{
-    width: fit-content;
+.info h2{
     margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.inicio .info h2{
+    padding: 200px 0 0 0;
     font-size: 3rem;
     letter-spacing: 3px;
     text-align: center;
-    /* padding: 200px 100px; */
+    
 }
-/* .inicio .info p{
-    margin: 20px;
-    color: #d1d2db;
-    font-size: 26px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    text-align: center;
-} */
-
-.inicio .opciones{
-    position: absolute;
+.opciones{
     display: flex;
     justify-content: space-between;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 100px 0;
+    bottom: 30px;    
 }
-.inicio .opciones .opcion{
+.opcion{
     border-top: 2px solid;
     border-color: hsl(54, 87%, 42%);
     padding: 7px;
@@ -162,23 +148,17 @@ body{
         font-size: 30px;
     }
     /* INICIO */
-    .inicio .contenedor-inicio{
-        height: auto;
-    }
-    .inicio .info{
-        top: 35%;
-    }
-    .inicio .info h2{
+    .info h2{
         font-size: 1.5rem;
-        
+        padding: 150px 0 0 0;        
     }
-    .inicio .opciones{
+    .opciones{
         
         display: block;
         text-align: center;
         margin: 0%;
     }
-    .inicio .opciones .opcion{
+    .opcion{
         margin-top: 10px;
     }
 }
