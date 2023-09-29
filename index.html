@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="estilos.css">
 
     <title>ANIMALS GYM</title>
 </head>
+
 <body>
     <!-- NAVEGADOR -->
     <div class="header-contenedor">
         <header>
-                <h1>Animals <span class="text1">GYM</span></h1>
+            <h1>Animals <span class="text1">GYM</span></h1>
 
-                <nav id="nav">
-                    <a href="#inicio" onclick="seleccionar()">INICIO</a>
-                    <a href="#nosotros" onclick="seleccionar()">NOSOTROS</a>                
-                    <a href="#galeria" onclick="seleccionar()">GALERIA</a>                
-                    <a href="#contacto" onclick="seleccionar()">CONTACTO</a>
-                </nav>
+            <nav id="nav">
+                <a href="#inicio" onclick="seleccionar()">INICIO</a>
+                <a href="#nosotros" onclick="seleccionar()">NOSOTROS</a>
+                <a href="#galeria" onclick="seleccionar()">GALERIA</a>
+                <a href="#contacto" onclick="seleccionar()">CONTACTO</a>
+            </nav>
 
-                <div class="redes">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a> 
-                </div>
-                <div class="nav-responsive" id="icono-nav" onclick="mostrarOcultarMenu()">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-        
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <div class="nav-responsive" id="icono-nav" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
         </header>
     </div>
 
@@ -39,7 +43,9 @@
         <div class="contenedor-inicio">
             <div class="info">
                 <!-- <h2>ANIMALS <span class="text1">GYM </span></h2> -->
-                <h2>LOS <span class="text1">LOGROS</span> NO SON MAGIA,<br> SON <span class="text1">TRABAJO</span> DURO Y <span class="text1">DEDICACION</span>. <br><span class="text1"><i class="fa-regular fa-heart"></i> <i class="fa-solid fa-dumbbell"></i></span></h2>                
+                <h2>LOS <span class="text1">LOGROS</span> NO SON MAGIA,<br> SON <span class="text1">TRABAJO</span> DURO
+                    Y <span class="text1">DEDICACION</span>. <br><span class="text1"><i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-dumbbell"></i></span></h2>
             </div>
             <div class="opciones">
                 <div class="opcion">
@@ -58,10 +64,33 @@
             </div>
         </div>
     </section>
-
     <!-- SECCION NOSOTROS -->
     <section id="nosotros" class="nosotros">
-
+        <div class="contenedor-nosotros1">
+            <img src="imagenes/entrenadores.jpg" alt="nuestros entrenadores" class="imgentrenadores">
+            <div class="nosotrosmision">
+                <h2>NOSOTROS</h2>
+                <br><br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate debitis reprehenderit totam
+                    eos placeat suscipit dolorem tempora dolore eius. Ipsa aspernatur culpa perspiciatis doloremque
+                    quidem veniam dolor quis deleniti excepturi necessitatibus minus, maxime iure laudantium vel,
+                    ratione officia nam facere sunt illo aliquid! Veritatis voluptatem exercitationem rem necessitatibus
+                </p>
+            </div>
+        </div>
+        <div class="contenedor-nosotros2">
+            <div class="horarios">
+                <h3>Ubicacion</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <br>
+                <h3>Horarios</h3>
+                <br>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae rerum quasi, sapiente molestiae voluptatibus totam porro quam harum eum!</P>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2569.2038670505613!2d-58.429931838484706!3d-34.60220655753681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1696004735553!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </section>
 
     <!-- SECCION GALERIA -->
@@ -73,13 +102,14 @@
     <section id="contacto" class="contacto">
 
     </section>
-    
+
     <!-- PIE DE PAGINA -->
     <footer>
 
     </footer>
 
     <script src="app.js"></script>
-    
+
 </body>
+
 </html>
