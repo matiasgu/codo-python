@@ -163,45 +163,92 @@ body{
     }
 }
 /* nosotros */
-.nosotros{background-color:hsl(54, 87%, 42%);}
+.nosotros{
+    background: linear-gradient(rgba(0,1,3,.5), rgba(0,0,0,.7));
+    height: 100%;
+    color: #fff;
+}
+.contenedor-nosotros{
+    max-width: 1100px;
+    height: auto;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
 .contenedor-nosotros1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
+    margin: 60px 0 0 0; 
 }
 .imgentrenadores{ 
-    width: 50%; padding: 6%; flex: 1; 
+    width: 40%;
+    border-radius: 20%;
 }
 .nosotrosmision{
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 50px;
-    flex: 1;
+    width: 40%;    
+    text-align: center;
+    padding: 50px;
+}
+.nosotrosmision h2{
+    margin: 20px;
+    font-size: 30px;
+    color: hsl(54, 87%, 42%);
 }
 
-.contenedor-nosotros2 {
+.contenedor-nosotros2{
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
-.horarios {
-    flex: 1;
-    width: 70%;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
+.horarios{    
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
 }
-.iframe-musica {
-    flex: 1;
+.horarios h2{
+    color: hsl(54, 87%, 42%);
+}
+.horarios button{
+    background-color: hsl(54, 87%, 42%);
     border: none;
-    max-width: 70%;
-    padding: 50px ; 
+    color: #fff;
+    padding: 15px 35px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+.iframe-musica {
+    width: 40%;
+    margin: 50px 0;
+    text-align: center;    
+}
+.iframe-musica h2{
+    color: hsl(54, 87%, 42%);
+    margin: 20px;
+}
+
 /*contacto*/
 .contacto {
+    background: linear-gradient(rgba(0,1,3,.5), rgba(0,0,0,.7));
+    height: 100%;
+    color: #fff;
+}
+.contacto1{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
 }
 .formulario {
     flex: 1; 
@@ -213,7 +260,7 @@ body{
 .iframe-ubicacion {
     flex: 1; 
     border: none;
-    width: 80%;
+    width: 50%;
     padding: 70px;
     justify-content: right;
 }

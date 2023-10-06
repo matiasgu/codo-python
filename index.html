@@ -66,33 +66,42 @@
     </section>
     <!-- SECCION NOSOTROS -->
     <section id="nosotros" class="nosotros">
-        <div class="contenedor-nosotros1">
-            <img src="imagenes/entrenadores.jpg" alt="nuestros entrenadores" class="imgentrenadores">
-            <div class="nosotrosmision">
-                <h2>NOSOTROS</h2>
-                <br><br>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate debitis reprehenderit totam
-                    eos placeat suscipit dolorem tempora dolore eius. Ipsa aspernatur culpa perspiciatis doloremque
-                    quidem veniam dolor quis deleniti excepturi necessitatibus minus, maxime iure laudantium vel,
-                    ratione officia nam facere sunt illo aliquid! Veritatis voluptatem exercitationem rem necessitatibus
-                </p>
+        <div class="contenedor-nosotros"></div>
+            <div class="contenedor-nosotros1">
+                <img src="imagenes/entrenadores.jpg" alt="nuestros entrenadores" class="imgentrenadores">
+                <div class="nosotrosmision">
+                    <h2>NOSOTROS</h2>
+                    
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate debitis reprehenderit totam
+                        eos placeat suscipit dolorem tempora dolore eius. Ipsa aspernatur culpa perspiciatis doloremque
+                        quidem veniam dolor quis deleniti excepturi necessitatibus minus, maxime iure laudantium vel,
+                        ratione officia nam facere sunt illo aliquid! Veritatis voluptatem exercitationem rem necessitatibus
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="contenedor-nosotros2">
-            <div class="horarios">
-                <h3>Horarios</h3>
-                <br>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae rerum quasi, sapiente
-                    molestiae voluptatibus totam porro quam harum eum!</P>
-            </div>
-            <div class="iframe-musica">
-                <h3>Entrena con nuestra playlist</h3>
-                <br>
-                <iframe width="460" height="315" src="https://www.youtube.com/embed/kc0lnXQw6K4?si=HY0tpqEMcaC4IKjj"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen> </iframe>
+            
+            <div class="contenedor-nosotros2">
+                <div class="horarios">
+                    <h2>Horarios</h2>
+
+                    <p>Lunes a sabados <br>
+                        8 a 22 hs <br>
+                        Domingos <br>
+                        8 a 14 hs
+                        
+                    </p>
+
+                    <button onclick="location.href='#contacto'">CONTACTO</button>
+                </div>
+                <div class="iframe-musica">
+                    <h2>Entrena con nuestra playlist</h2>
+
+                    <iframe width="460" height="315" src="https://www.youtube.com/embed/kc0lnXQw6K4?si=HY0tpqEMcaC4IKjj"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen> </iframe>
+                </div>
             </div>
         </div>
     </section>
@@ -104,35 +113,25 @@
 
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
-        <div class="contacto">
+        <div class="contacto1">
             <div class="formulario">
                 <h3>Comunicate con nosotros</h3>
                 <form action="" method="post">
                     <fieldset>
-                        <legend>Datos personales:</legend>
-                        <label for="nom">Nombre:*</label>
-                        <input type="text" name="nombre" id="nom" required>
-                        <br><br>
-                        <label for="ape">Apellido:*</label>
+                        
+                        <label for="ape">Nombre:</label>
                         <input type="text" name="apellido" id="ape" required size="10">
-                        <br>
-                        <br>
+                        
                         <label for="correo">Correo:</label>
-                        <input type="email" name="correo" id="correo">
-                        <br>
-                        <br>
-                        <label for="edad">Edad:</label>
-                        <input type="number" name="edad" id="edad" min="18" max="120">
-                        <br><br>
-                        <p>* Datos obligatorios</p>
-                        <br>
-                        <label for="comentarios">Escriba su consulta:</label>
-                        <br>
+                        <input type="email" name="correo" id="correo">               
+
+                        <label for="comentarios">Escriba su consulta:</label>                        
                         <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="..."></textarea>
+
                     </fieldset>
-                    <br>
+                    
                     <input type="submit" value="Enviar">
-                    <br>
+                    
             </div>
             <div class="iframe-ubicacion">
                 <h3>Nuestra ubicacion</h3>
