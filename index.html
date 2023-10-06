@@ -81,15 +81,19 @@
         </div>
         <div class="contenedor-nosotros2">
             <div class="horarios">
-                <h3>Ubicacion</h3>
-                <br>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <br>
                 <h3>Horarios</h3>
                 <br>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae rerum quasi, sapiente molestiae voluptatibus totam porro quam harum eum!</P>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet beatae rerum quasi, sapiente
+                    molestiae voluptatibus totam porro quam harum eum!</P>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2569.2038670505613!2d-58.429931838484706!3d-34.60220655753681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1696004735553!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="iframe-musica">
+                <h3>Entrena con nuestra playlist</h3>
+                <br>
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/kc0lnXQw6K4?si=HY0tpqEMcaC4IKjj"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen> </iframe>
+            </div>
         </div>
     </section>
 
@@ -100,7 +104,49 @@
 
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
-
+        <div class="contacto">
+            <div class="formulario">
+                <h3>Comunicate con nosotros</h3>
+                <form action="" method="post">
+                    <fieldset>
+                        <legend>Datos personales:</legend>
+                        <label for="nom">Nombre:*</label>
+                        <input type="text" name="nombre" id="nom" required>
+                        <br><br>
+                        <label for="ape">Apellido:*</label>
+                        <input type="text" name="apellido" id="ape" required size="10">
+                        <br>
+                        <br>
+                        <label for="correo">Correo:</label>
+                        <input type="email" name="correo" id="correo">
+                        <br>
+                        <br>
+                        <label for="edad">Edad:</label>
+                        <input type="number" name="edad" id="edad" min="18" max="120">
+                        <br><br>
+                        <p>* Datos obligatorios</p>
+                        <br>
+                        <label for="comentarios">Escriba su consulta:</label>
+                        <br>
+                        <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="..."></textarea>
+                    </fieldset>
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <br>
+            </div>
+            <div class="iframe-ubicacion">
+                <h3>Nuestra ubicacion</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni non distinctio dolorum provident,
+                    reiciendis sint facere dolore recusandae maxime. Minus odio eveniet magni. Quibusdam at enim et,
+                    perferendis praesentium illum!</p>
+                    <br><br>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2925.769013776287!2d-58.42979909578276!3d-34.602521344081296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1696607917997!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </section>
 
     <!-- PIE DE PAGINA -->
