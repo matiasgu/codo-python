@@ -335,7 +335,71 @@ footer .info a{
     }
     .opcion{
         margin-top: 10px;
+    } 
+    /* NOSOTROS */
+    .contenedor-nosotros1 {
+        flex-direction: column;
     }
+    .imgentrenadores{ 
+        width: 80%;
+    }
+    .nosotrosmision{
+        width: 90%;    
+    }
+    .contenedor-nosotros2{
+        flex-direction: column;
+        
+    }
+    
+    .iframe-musica {
+        width: 80%;       
+    }
+    .iframe-musica iframe{
+        width: 90%;
+    }
+
+    /*contacto*/
+.contacto {
+    
+    height: 100%;
+    
+}
+.contacto1{
+    flex-direction: column;
+    height: 100%;
+}
+.formulario h2{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.formulario form fieldset{
+    width: 80%;
+    border: none;
+}
+
+input{
+    width: 100%;
+}
+
+.iframe-ubicacion {
+    width: 80%;
+}
+.iframe-ubicacion iframe{
+    width: 90%;
+    margin: 20px 0;
+}
+
+/* footer */
+
+footer .info{
+    flex-direction: column;
+    text-align: center;
+}
+footer .info p{
+    margin: 20px;
+}
+
 }
 
 
