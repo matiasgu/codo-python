@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;400;600;800&family=Open+Sans:wght@300;400;800&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Barlow';
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-color: #dde1e9;
 }
+
 /* NAVEGADOR */
-.header-contenedor{
+.header-contenedor {
     width: 100%;
     position: fixed;
     border-bottom: 1px solid #000000;
@@ -20,19 +24,22 @@ body{
     z-index: 99;
     padding: 0 20px;
 }
-.header-contenedor header{
+
+.header-contenedor header {
     max-width: 1100px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
     color: #fff;
 }
-.header-contenedor header h1{
+
+.header-contenedor header h1 {
     width: 200px;
     height: auto;
 }
-.header-contenedor header nav a{
+
+.header-contenedor header nav a {
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -40,130 +47,146 @@ body{
     text-transform: uppercase;
 }
 
-.header-contenedor header nav a:hover{
+.header-contenedor header nav a:hover {
     color: hsl(54, 87%, 42%);
 }
-.header-contenedor header .redes a{
+
+.header-contenedor header .redes a {
     text-decoration: none;
     color: #fff;
     display: inline-block;
     padding: 20px;
 }
-.header-contenedor header .redes a:hover{
+
+.header-contenedor header .redes a:hover {
     color: hsl(54, 87%, 42%);
 }
-.nav-responsive{
+
+.nav-responsive {
     font-size: 25px;
     display: none;
 }
-.text1{
+
+.text1 {
     color: hsl(54, 87%, 42%);
 }
 
 /* INICIO */
 
-.inicio{
+.inicio {
 
     height: 100vh;
-    background: linear-gradient(rgba(0,1,3,.5), rgba(0,0,0,.7)), url(imagenes/gymInicio2.jpg);
+    background: linear-gradient(rgba(0, 1, 3, .5), rgba(0, 0, 0, .7)), url(imagenes/gymInicio2.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
     position: relative;
-    
+
 }
-.contenedor-inicio{
+
+.contenedor-inicio {
     max-width: 1100px;
     height: 100%;
-    margin: auto;    
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    
+
 }
-.info h2{
+
+.info h2 {
     margin: auto;
     padding: 200px 0 0 0;
     font-size: 3rem;
     letter-spacing: 3px;
     text-align: center;
-    
+
 }
-.opciones{
+
+.opciones {
     display: flex;
     justify-content: space-between;
-    bottom: 30px;    
+    bottom: 30px;
 }
-.opcion{
+
+.opcion {
     border-top: 2px solid;
     border-color: hsl(54, 87%, 42%);
     padding: 7px;
     color: #d1d2db;
     margin: 0 20px;
 }
+
 /* nosotros */
-.nosotros{
-    background: linear-gradient(rgba(0,1,3,.5), rgba(0,0,0,.7));
+.nosotros {
+    background: linear-gradient(rgba(0, 1, 3, .5), rgba(0, 0, 0, .7));
     height: 100%;
     color: #fff;
     position: relative;
 }
-.contenedor-nosotros{
+
+.contenedor-nosotros {
     max-width: 1100px;
     height: auto;
-    margin: auto;    
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     align-content: center;
 }
+
 .contenedor-nosotros1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin: 60px 0 0 0; 
+    margin: 60px 0 0 0;
 }
-.imgentrenadores{ 
+
+.imgentrenadores {
     width: 40%;
     border-radius: 20%;
 }
-.nosotrosmision{
-    width: 40%;    
+
+.nosotrosmision {
+    width: 40%;
     text-align: center;
     padding: 50px;
 }
-.nosotrosmision h2{
+
+.nosotrosmision h2 {
     margin: 20px;
     font-size: 30px;
     color: hsl(54, 87%, 42%);
 }
 
-.contenedor-nosotros2{
+.contenedor-nosotros2 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    
+
 }
 
-.horarios{    
+.horarios {
     width: 40%;
     height: 200px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center;
 }
-.horarios h2{
+
+.horarios h2 {
     color: hsl(54, 87%, 42%);
 }
-.horarios button{
+
+.horarios button {
     background-color: hsl(54, 87%, 42%);
     border: none;
     color: #fff;
@@ -177,26 +200,71 @@ body{
 .iframe-musica {
     width: 40%;
     margin: 50px 0;
-    text-align: center;    
+    text-align: center;
 }
-.iframe-musica h2{
+
+.iframe-musica h2 {
     color: hsl(54, 87%, 42%);
     margin: 20px;
+}
+.iframe-musica iframe{
+    width: 100%;
+}
+
+/* galeria */
+.galeria {
+    color: #fff;
+    background: linear-gradient(rgba(0, 1, 3, .5), rgba(0, 0, 0, .7)), url(imagenes/gymgaleria.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.seccion-galeria {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+.contenedor-titulo {
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.contenedor-titulo h2 {
+    font-size: 3rem;
+    color: hsl(54, 87%, 42%);
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria .fila .col img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    padding: 20px;
 }
 
 
 
 /*contacto*/
 .contacto {
-    background: linear-gradient(rgba(0,1,3,.5), rgba(0,0,0,.7));
+    background: linear-gradient(rgba(0, 1, 3, .5), rgba(0, 0, 0, .7));
     height: 100vh;
     color: #fff;
     position: relative;
 }
-.contacto1{
+
+.contacto1 {
     max-width: 1100px;
     height: 100%;
-    margin: auto;    
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -204,25 +272,29 @@ body{
     align-content: center;
     /* text-align: center; */
 }
-.formulario {    
+
+.formulario {
     width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
     height: 70%;
     align-items: center;
-    justify-content: space-around; 
-    
+    justify-content: space-around;
+
 }
-.formulario h2{
+
+.formulario h2 {
     font-size: 30px;
     color: hsl(54, 87%, 42%);
 }
-.formulario form{
+
+.formulario form {
     margin: 20px;
     text-align: center;
 }
-.formulario form fieldset{
+
+.formulario form fieldset {
     border-color: hsl(54, 87%, 42%);
     padding: 20px;
     display: flex;
@@ -230,16 +302,19 @@ body{
     justify-content: space-evenly;
     height: 500px;
 }
-label{
+
+label {
     color: hsl(54, 87%, 42%);
-    font-size: 20px;    
+    font-size: 20px;
 }
-input{
+
+input {
     width: 300px;
 }
-.enviar{
+
+.enviar {
     margin: 20px;
-    
+
     background-color: hsl(54, 87%, 42%);
     border: none;
     color: #fff;
@@ -249,6 +324,7 @@ input{
     border-radius: 5px;
     cursor: pointer;
 }
+
 .iframe-ubicacion {
     width: 80%;
     margin: auto;
@@ -256,29 +332,33 @@ input{
     flex-direction: column;
     height: 50%;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
-.iframe-ubicacion h2{
+
+.iframe-ubicacion h2 {
     font-size: 30px;
     color: hsl(54, 87%, 42%);
 }
 
 /* footer */
-footer{
-    background: linear-gradient(rgba(0,1,3,.5), rgba(0,0,0,.7));
+footer {
+    background: linear-gradient(rgba(0, 1, 3, .5), rgba(0, 0, 0, .7));
     padding: 30px;
 }
-footer .info{
+
+footer .info {
     display: flex;
     max-width: 1100px;
     margin: auto;
     justify-content: space-between;
     padding: 0 20px;
 }
-footer .info p{
+
+footer .info p {
     color: #797e8e;
 }
-footer .info a{
+
+footer .info a {
     text-decoration: none;
     color: hsl(54, 87%, 42%);
     display: inline-block;
@@ -286,25 +366,28 @@ footer .info a{
 }
 
 
-@media only screen and (max-width:900px){
+@media only screen and (max-width:900px) {
 
     /* NAVEGADOR */
-    header nav{
+    header nav {
         position: absolute;
         display: none;
         transform: translate(0);
     }
-    header .redes{
+
+    header .redes {
         display: none;
     }
-    #numero{
+
+    #numero {
         font-size: 3rem;
     }
-    .nav-responsive{
+
+    .nav-responsive {
         display: block;
     }
-    
-    nav.responsive{
+
+    nav.responsive {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -316,90 +399,114 @@ footer .info a{
         background-color: rgba(1, 1, 1, 0.636);
         z-index: 99;
     }
-    nav.responsive a{
+
+    nav.responsive a {
         display: block;
         width: fit-content;
         margin: 10px auto;
         font-size: 30px;
     }
+
     /* INICIO */
-    .info h2{
+    .info h2 {
         font-size: 1.5rem;
-        padding: 150px 0 0 0;        
+        padding: 150px 0 0 0;
     }
-    .opciones{
-        
+
+    .opciones {
+
         display: block;
         text-align: center;
         margin: 0%;
     }
-    .opcion{
+
+    .opcion {
         margin-top: 10px;
-    } 
+    }
+
     /* NOSOTROS */
     .contenedor-nosotros1 {
         flex-direction: column;
     }
-    .imgentrenadores{ 
+
+    .imgentrenadores {
         width: 80%;
     }
-    .nosotrosmision{
-        width: 90%;    
-    }
-    .contenedor-nosotros2{
-        flex-direction: column;
-        
-    }
-    
-    .iframe-musica {
-        width: 80%;       
-    }
-    .iframe-musica iframe{
+
+    .nosotrosmision {
         width: 90%;
     }
 
+    .contenedor-nosotros2 {
+        flex-direction: column;
+
+    }
+
+    .iframe-musica {
+        width: 100%;
+    }
+
+    .iframe-musica iframe {
+        width: 90%;
+    } 
+
+    /* GALERIA */
+    .galeria{
+        height: auto;
+    }
+    .fila{
+        flex-direction: column;
+        align-items: center;
+    }
+    .galeria .fila .col img {        
+        height: auto;
+        
+    }
+
     /*contacto*/
-.contacto {
-    
-    height: 100%;
-    
-}
-.contacto1{
-    flex-direction: column;
-    height: 100%;
-}
-.formulario h2{
-    margin: 20px 0;
-    text-align: center;
-}
+    .contacto {
 
-.formulario form fieldset{
-    width: 80%;
-    border: none;
-}
+        height: 100%;
 
-input{
-    width: 100%;
-}
+    }
 
-.iframe-ubicacion {
-    width: 80%;
-}
-.iframe-ubicacion iframe{
-    width: 90%;
-    margin: 20px 0;
-}
+    .contacto1 {
+        flex-direction: column;
+        height: 100%;
+    }
 
-/* footer */
+    .formulario h2 {
+        margin: 20px 0;
+        text-align: center;
+    }
 
-footer .info{
-    flex-direction: column;
-    text-align: center;
+    .formulario form fieldset {
+        width: 80%;
+        border: none;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .iframe-ubicacion {
+        width: 80%;
+    }
+
+    .iframe-ubicacion iframe {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    /* footer */
+
+    footer .info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .info p {
+        margin: 20px;
+    }
+
 }
-footer .info p{
-    margin: 20px;
-}
-
-}
-
-
