@@ -292,6 +292,7 @@ body {
 .formulario form {
     margin: 20px;
     text-align: center;
+    width: 100%;
 }
 
 .formulario form fieldset {
@@ -301,6 +302,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     height: 500px;
+    width: 100%;
 }
 
 label {
@@ -309,7 +311,7 @@ label {
 }
 
 input {
-    width: 300px;
+    width: 100%;
 }
 
 .enviar {
@@ -474,14 +476,20 @@ footer .info a {
         flex-direction: column;
         height: 100%;
     }
+    .formulario{
+        margin: 0;
+    }
 
     .formulario h2 {
         margin: 20px 0;
         text-align: center;
     }
+    .formulario form{
+        margin: 0;
+    }
 
     .formulario form fieldset {
-        width: 80%;
+        width: 100%;
         border: none;
     }
 
