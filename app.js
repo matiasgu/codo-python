@@ -14,3 +14,14 @@ function seleccionar(){
     document.getElementById("nav").classList =""
     menuVisible = false
 }
+
+
+
+function validarjs(){
+
+    let nombre = document.getElementById("nombre").value
+    
+    alert(`gracias ${nombre} pronto nos contactaremos con tigo`)
+    
+    return(false)
+}
